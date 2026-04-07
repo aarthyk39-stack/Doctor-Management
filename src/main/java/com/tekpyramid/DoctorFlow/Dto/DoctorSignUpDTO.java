@@ -4,11 +4,12 @@ import lombok.Data;
 
 @Data
 public class DoctorSignUpDTO {
-
-    private String doctorName;
+    private String userName;
     private String email;
     private String password;
     private long mobile;
     private String Specialist;
+    private double rating;
+
 
 }
